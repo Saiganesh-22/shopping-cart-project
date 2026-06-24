@@ -64,17 +64,26 @@ The checkout system:
 
 ## Project Structure
 
-starter/
-├── src/
-│ ├── index.html
-│ ├── style.css
-│ ├── script.js
-│ └── front.js
+shopping-cart-project
 │
-├── tests/
-│ └── script.test.js
+├── src
+│   ├── assets
+│   │   ├── front.js
+│   │   ├── script.js
+│   │   └── styles.css
+│   │
+│   ├── images
+│   │   ├── cherry.jpg
+│   │   ├── orange.jpg
+│   │   └── strawberry.jpg
+│   │
+│   └── index.html
+│
+├── tests
+│   └── script.test.js
 │
 ├── package.json
+├── package-lock.json
 └── README.md
 
 ---
@@ -153,4 +162,3 @@ Snapshots: 0 total
 ## Author
 
 N. Sai Ganesh Yadav
-
